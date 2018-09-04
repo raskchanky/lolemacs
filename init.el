@@ -1,0 +1,16 @@
+(setq user-full-name "Josh Black")
+(setq user-mail-address "raskchanky@gmail.com")
+
+(add-to-list 'load-path "~/.emacs.d/custom")
+(require 'cl-lib)
+
+(load "packages.el")
+(load "common-setup.el")
+(load "themes.el")
+(load "clojure.el")
+(load "ruby.el")
+(load "javascript.el")
+(load "web.el")
+(load "haskell.el")
+(load "go.el")
+(load "erlang.el")
