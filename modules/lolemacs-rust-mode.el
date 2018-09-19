@@ -18,6 +18,6 @@
 
 (use-package flycheck-inline
   :config
-  (flycheck-inline-mode)))
+  (flycheck-inline-mode))
 
 (provide 'lolemacs-rust-mode)
