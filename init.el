@@ -3,6 +3,9 @@
 
 (add-to-list 'load-path (concat base-dir "modules"))
 
+(setq custom-file (concat dotfiles-dir "custom.el"))
+(load custom-file 'noerror)
+
 (require 'lolemacs-common)
 (require 'lolemacs-package)
 (require 'lolemacs-ace-window)
@@ -25,16 +28,3 @@
 
 (use-package better-defaults)
 (use-package transpose-frame)
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (ace-window use-package paradox))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
