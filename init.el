@@ -3,7 +3,7 @@
 
 (add-to-list 'load-path (concat base-dir "modules"))
 
-(setq custom-file (concat dotfiles-dir "custom.el"))
+(setq custom-file (concat base-dir "custom.el"))
 (load custom-file 'noerror)
 
 (require 'lolemacs-common)
