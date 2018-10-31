@@ -25,6 +25,7 @@
 (require 'lolemacs-smex)
 (require 'lolemacs-web-mode)
 (require 'lolemacs-yaml-mode)
+(require 'lolemacs-misc)
 
 (use-package better-defaults)
 (use-package transpose-frame)
